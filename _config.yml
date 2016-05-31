@@ -1,28 +1,40 @@
-name: Space_the New frontier
+layout_spectrum: 0.08263069
 favicon: null
-layout_spectrum: 0.31280435365624726
-typography_spectrum: 0.6274644841905683
-cta:
-  domain: null
-  bucket: null
-  version: null
+name: Space_the New frontier
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
+cta:
+  version: null
+  bucket: null
+  domain: null
 color:
+  brandStrength: 0.8271501
+  lightness: 0.9477138
+  saturation: 0.8836425
+  rhythmicContrast: 0.7318718
   brandColors:
-    - '#F7EDF0'
-    - '#F4CBC6'
-    - '#F4AFAB'
-    - '#F4EEA9'
-    - '#F4F482'
-  brandStrength: 0.6028560940176249
-  lightness: 0.9477138016372919
-  saturation: 0.6387476688250899
-  rhythmicContrast: 0.8307116425130516
-purpose: []
+    - '#020104'
+    - '#321F5D'
+    - '#513AB1'
+    - '#9839A7'
+    - '#6851CD'
+typography_spectrum: 0.6274644841905683
